@@ -1,0 +1,16 @@
+1. copy com-ahc0501.c to drivers/pnp/
+
+2. modify com-ahc0501.c
+  change the following line.
+    module_init(Module_init);
+  to 
+    fs_initcall(Module_init);
+
+3. modify drivers/pnp/Makefile
+  .
+  .
+  .
+  # pnp_system_init goes after pnpacpi/pnpbios init
+  pnp-y				+= com-ahc0501.o     -> add this line
+  pnp-y				+= system.o
+

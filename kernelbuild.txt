@@ -1,0 +1,16 @@
+1. change the following filename
+    go to dir AHC_drivers\<devices>\
+        <devices> => SMB, GPIO, I2C ...
+    Makefile => Makefile.mb
+    Makefile.kb => Makefile
+
+2. copy AHC_drivers\ to kernel\drivers\
+
+3. add one line to kernel\drivers\Kconfig
+    source "drivers/platform/Kconfig"
+    source "drivers/AHC/Kconfig"    => add
+
+4. add one line to kernel\drivers\Makefile
+    obj-y				+= platform/
+    obj-$(CONFIG_AHC_DRV)		+= AHC/  => add
+

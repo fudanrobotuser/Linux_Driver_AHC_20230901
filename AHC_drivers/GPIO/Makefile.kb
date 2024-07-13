@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: GPL-2.0
+#
+# kbuild makefile for the drivers.
+#
+
+#ccflags-$(CONFIG_DEBUG_GPIO) := -DDEBUG
+
+obj-$(CONFIG_GPIO_AHC_PLATFORM)	+= gpio-ahc0b10.o
+
+

@@ -1,0 +1,10 @@
+
+config GPIO_AHC_PLATFORM
+	tristate "Generic Platform Bus based AHC_GPIO driver"
+	default y
+	---help---
+	  This driver support for the PNP1901/AHC0b10 chips connected
+	  to the "platform bus"
+
+
+

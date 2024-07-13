@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: GPL-2.0
+#
+# kbuild makefile for the drivers.
+#
+
+
+
+obj-$(CONFIG_COM_AHC_PLATFORM)	+= com-ahc0501.o
+
+

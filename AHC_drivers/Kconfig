@@ -1,0 +1,13 @@
+menuconfig AHC_DRV
+	tristate "AHC drivers"
+	default y
+	
+if AHC_DRV
+
+source "drivers/AHC/COM/Kconfig"
+source "drivers/AHC/GPIO/Kconfig"
+source "drivers/AHC/I2C/Kconfig"
+source "drivers/AHC/SMB/Kconfig"
+source "drivers/AHC/CAN/Kconfig"
+
+endif

@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: GPL-2.0
+#
+# kbuild makefile for the drivers.
+#
+
+#ccflags-$(CONFIG_CAN_DEBUG_DEVICES) := -DDEBUG
+
+obj-$(CONFIG_CAN_AHC_PLATFORM)	+= can-ahc0512.o
+
+

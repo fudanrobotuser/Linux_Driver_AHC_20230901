@@ -1,0 +1,8 @@
+
+config COM_AHC_PLATFORM
+	tristate "Generic Platform Bus based AHC_COM driver"
+	default y
+	---help---
+	  This driver support for the PNP0501/AHC0501 chips connected
+	  to the "platform bus"
+

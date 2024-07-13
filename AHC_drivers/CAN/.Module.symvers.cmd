@@ -1,0 +1,1 @@
+cmd_/home/fudanrobotuser/Linux_Driver_AHC_20230901/AHC_drivers/CAN/Module.symvers := sed 's/\.ko$$/\.o/' /home/fudanrobotuser/Linux_Driver_AHC_20230901/AHC_drivers/CAN/modules.order | scripts/mod/modpost -m -a  -o /home/fudanrobotuser/Linux_Driver_AHC_20230901/AHC_drivers/CAN/Module.symvers -e -i Module.symvers   -T -

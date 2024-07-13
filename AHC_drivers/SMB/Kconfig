@@ -1,0 +1,10 @@
+
+config SMB_AHC_PLATFORM
+	tristate "Generic Platform Bus based AHC_SMB driver"
+	default y
+	---help---
+	  This driver support for the PNP1511/AHC0511 chips connected
+	  to the "platform bus"
+
+
+

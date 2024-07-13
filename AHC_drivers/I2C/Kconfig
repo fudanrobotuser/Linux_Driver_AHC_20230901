@@ -1,0 +1,10 @@
+
+config I2C_AHC_PLATFORM
+	tristate "Generic Platform Bus based AHC_I2C driver"
+	default y
+	---help---
+	  This driver support for the PNP1501/AHC0510 chips connected
+	  to the "platform bus"
+
+
+

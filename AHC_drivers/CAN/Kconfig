@@ -1,0 +1,8 @@
+
+config CAN_AHC_PLATFORM
+	tristate "Generic Platform Bus based AHC_CAN driver"
+	default y
+	---help---
+	  This driver support for the PNP1070/AHC0512 chips connected
+	  to the "platform bus"
+

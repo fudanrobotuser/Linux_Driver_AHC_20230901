@@ -1,0 +1,1 @@
+cmd_/home/fudanrobotuser/Linux_Driver_AHC_20230901/AHC_drivers/CAN/can-ahc0512.mod := { echo  /home/fudanrobotuser/Linux_Driver_AHC_20230901/AHC_drivers/CAN/can-ahc0512.o;  echo; } > /home/fudanrobotuser/Linux_Driver_AHC_20230901/AHC_drivers/CAN/can-ahc0512.mod
